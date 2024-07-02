@@ -85,4 +85,4 @@ docs: 更新 README
 
 ## 说明
 
-前端导航模块由 [茂茂 | maomao](https://github.com/maomao1996) 开发，如有引用、借鉴的请保留版权声明：<https://github.com/maomao1996/vitepress-nav-template>
+前端导航模块由 [大 Xiu 子 | maomao](https://github.com/maomao1996) 开发，如有引用、借鉴的请保留版权声明：<https://github.com/maomao1996/vitepress-nav-template>

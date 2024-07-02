@@ -3,14 +3,14 @@ layout: home
 layoutClass: 'm-home-layout'
 
 hero:
-  name: 茂茂的
+  name: xiuxiu的
   text: 前端导航模板
   tagline: 基于 VitePress 的个人前端导航页面模板
   image:
     src: /logo.png
-    alt: 茂茂物语
+    alt: 大Xiu子
   actions:
-    - text: 茂茂物语
+    - text: 大Xiu子
       link: https://notes.fe-mm.com
     - text: 前端导航
       link: /nav/
@@ -53,6 +53,9 @@ features:
 ---
 
 <style>
+ .m-home-layout .image-src,.logo{
+    border-radius:50%
+}
 /*爱的魔力转圈圈*/
 .m-home-layout .image-src:hover {
   transform: translate(-50%, -50%) rotate(666turn);
@@ -68,4 +71,5 @@ features:
   margin-top: 2em;
   text-align: right;
 }
+
 </style>

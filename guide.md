@@ -1,7 +1,7 @@
 # 自定义基础指引
 
-面向对 Vitepress 了解不多、仅想套用模板做站点的定制化指引。  
-（注：本文内容目标：达成基本的样式套用，深入修改请参照 Vue 文档等）  
+面向对 Vitepress 了解不多、仅想套用模板做站点的定制化指引。
+（注：本文内容目标：达成基本的样式套用，深入修改请参照 Vue 文档等）
 （请在贵站中标注本项目仓库地址等信息）
 
 ## 一、首页配置
@@ -18,14 +18,14 @@
 
 ```ts
 hero:
-  name: 茂茂的 //左侧第一行
+  name: 大Xiu子的 //左侧第一行
   text: 个人前端导航  //左侧第二行
   tagline: 使用 VitePress 打造个人前端导航  //第三行小注内容
   image:
     src: /logo.png //页面大图地址（图像最好切圆后使用）
-    alt: 茂茂物语
+    alt: 大Xiu子物语
   actions:  //跳转按钮，可按需增减
-    - text: 茂茂物语
+    - text: 大Xiu子物语
       link: https://notes.fe-mm.com
     - text: 前端导航
       link: /nav/
@@ -51,7 +51,7 @@ features:
 export const nav: DefaultTheme.Config['nav'] = [
   { text: '个人主页', link: 'https://fe-mm.com' }, //切行无影响
   {
-    text: '茂茂物语', //显示文本
+    text: '大Xiu子物语', //显示文本
     link: 'https://notes.fe-mm.com', //链接
   },
 ]
@@ -83,7 +83,7 @@ export default defineConfig({
 
 修改文件: /docs/nav/data.js
 
-此处的站点信息涉及四个属性：  
+此处的站点信息涉及四个属性：
 |属性值|作用|
 |:--|--|
 |icon|图标地址（可填绝对/相对路径）|
@@ -158,7 +158,7 @@ Nav 页本身属于 MD 文件渲染，因此除引用的 data 文件用于数据
 
 **3.1 站点图标（favicon）**：
 
-修改位置：/docs/.vitepress/configs/head.ts  
+修改位置：/docs/.vitepress/configs/head.ts
 在对应位置更改即可。
 
 **3.2 站点标题与图标**：

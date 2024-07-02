@@ -67,7 +67,7 @@ export const NAV_DATA: NavData[] = [
     ],
   },
   {
-    title: '茂茂的站点导航',
+    title: '大Xiu子的站点导航',
     items: [
       {
         icon: '/logo.png',
