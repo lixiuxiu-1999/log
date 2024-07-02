@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as i,a2 as e}from"./chunks/framework.CQ12TVIp.js";const E=JSON.parse('{"title":"vitepress-nav-template","description":"","frontmatter":{},"headers":[],"relativePath":"README.md","filePath":"README.md"}'),n={name:"README.md"},t=e("",20),l=[t];function p(h,r,k,o,d,c){return i(),a("div",null,l)}const m=s(n,[["render",p]]);export{E as __pageData,m as default};
