@@ -64,13 +64,13 @@ features:
 }
 
 .m-home-layout .details small {
-  opacity: 0.8;
+opacity: 0.8;
 }
 
 .m-home-layout .bottom-small {
-  display: block;
-  margin-top: 2em;
-  text-align: right;
+display: block;
+margin-top: 2em;
+text-align: right;
 }
 
 </style>
