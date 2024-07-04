@@ -3,7 +3,7 @@ layout: home
 layoutClass: 'm-home-layout'
 
 hero:
-  name: xiuxiu的
+  name: 大Xiu子的
   text: 个人博客
   tagline: 基于 VitePress 的个人前端导航页面模板
   image:
@@ -49,7 +49,8 @@ features:
   - icon: 💯
     title: 吾志所向，一往无前。
     details: '<small class="bottom-small">一个想躺平的小开发</small>'
-    link: https://notes.fe-mm.com/mao
+    link: /mine/
+    linkText: 关于我
 ---
 
 <style>

@@ -1,3 +1,4 @@
+import { link } from 'fs'
 import type { NavLink } from '../.vitepress/theme/types'
 
 type NavData = {
@@ -10,16 +11,28 @@ export const NAV_DATA: NavData[] = [
     title: '常用工具',
     items: [
       {
-        icon: 'https://caniuse.com/img/favicon-128.png',
-        title: 'Can I use',
-        desc: '前端 API 兼容性查询',
-        link: 'https://caniuse.com',
+        icon: '/icons/json-cn.ico',
+        title: 'Json 中文网',
+        desc: 'JSON 在线解析及格式化验证',
+        link: 'https://www.json.cn',
+      },
+      {
+        icon: '/icons/65dda212d1fb5.png',
+        title: 'Squoosh',
+        desc: '非常不错的图片压缩',
+        link: 'https://tinypng.com',
       },
       {
         icon: 'https://tinypng.com/images/apple-touch-icon.png',
         title: 'TinyPNG',
         desc: '在线图片压缩工具',
         link: 'https://tinypng.com',
+      },
+      {
+        icon: 'https://caniuse.com/img/favicon-128.png',
+        title: 'Can I use',
+        desc: '前端 API 兼容性查询',
+        link: 'https://caniuse.com',
       },
       {
         icon: 'https://devtool.tech/logo.svg',
@@ -33,12 +46,7 @@ export const NAV_DATA: NavData[] = [
         desc: '开发人员的工具箱',
         link: 'https://tool.lu',
       },
-      {
-        icon: '/icons/json-cn.ico',
-        title: 'Json 中文网',
-        desc: 'JSON 在线解析及格式化验证',
-        link: 'https://www.json.cn',
-      },
+
     ],
   },
   {
@@ -50,13 +58,26 @@ export const NAV_DATA: NavData[] = [
         link: 'https://chat.openai.com/chat',
       },
       {
+        icon: '/icons/1720055103677.png',
+        title: 'Coze',
+        desc: '炒鸡好用，能白嫖 GPT4，听说是字节的',
+        link: 'https://www.coze.com/',
+      },
+      {
         icon: 'https://www.notion.so/images/logo-ios.png',
-        title: 'Notion AI（笔记）',
-        link: 'https://www.notion.so',
+        title: '讯飞星火（比百度好）',
+        desc: '不错，比百度的好点',
+        link: 'https://xinghuo.xfyun.cn/',
+      },
+      {
+        icon: 'https://www.notion.so/images/logo-ios.png',
+        title: '文心一言',
+        link: 'https://yiyan.baidu.com/',
       },
       {
         icon: 'https://www.midjourney.com/apple-touch-icon.png',
         title: 'Midjourney（绘画）',
+        desc: ' AI 绘图的王者，就是有点亿点贵',
         link: 'https://www.midjourney.com',
       },
       {
@@ -67,7 +88,7 @@ export const NAV_DATA: NavData[] = [
     ],
   },
   {
-    title: '大Xiu子的站点导航',
+    title: '站点导航',
     items: [
       {
         icon: '/logo.png',
